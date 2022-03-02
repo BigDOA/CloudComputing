@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(32, 41, 14);
+  overflow: hidden;
+}
+.nav-items {
+  float: right;
+  list-style: none;
+  padding: 3% 3% 0 0;
+}
+
+label {
+  color: aliceblue;
+  font-size: 40px;
+  padding: 3% 0 0 6%;
+  float: left;
+}
+.nav-items li {
+  display: inline-block;
+}
+.nav-items li a {
+  color: aliceblue;
+  padding: 5px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.content {
+  color: aliceblue;
+  padding: 20% 30%;
+  text-align: center;
+}
+.content > h2 {
+  font-size: 60px;
+  text-align: center;
+}
+button {
+  border: 1px solid rgb(0, 158, 0);
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: yellowgreen;
+}
